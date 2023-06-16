@@ -168,15 +168,18 @@ section {
 .galery {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  place-items: center;
   & .food {
+    max-width: 250px;
     padding: 2rem;
     border-radius: 50px 50px 25px 25px;
     background-color: rgba(0, 0, 0, 0.1);
     user-select: none;
     transition: all 0.3s ease;
     &:hover {
+      z-index: 5;
       transform: scale(1.025);
     }
   }
