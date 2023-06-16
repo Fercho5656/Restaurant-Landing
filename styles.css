@@ -124,6 +124,7 @@ section {
   transition: all 0.3s ease;
   border: none;
   border-radius: 9999px;
+  text-decoration: none;
 
   &:hover {
     background-color: var(--green);
